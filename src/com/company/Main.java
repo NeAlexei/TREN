@@ -25,13 +25,17 @@ public class Main {
 //        Task5 task5 = new Task5();
 //        task5.printIf(task5.s1, task5.s2);
 
-        System.out.println("...");
+        System.out.println("Отрицательное ли число");
         Task6 task6 = new Task6();
         System.out.println("Ыыыы " + task6.negative(-8) + "\n" + "---");
 
         System.out.println("Какой-то текст");
         Priva priva = new Priva();
         priva.writeHello("Илларион Бенедиктович");
+
+        System.out.println("Введите ваше количество лет: ");
+        Task7 task7 = new Task7();
+        System.out.println(task7.yearsOld(task7.age));
 
     }
 }
